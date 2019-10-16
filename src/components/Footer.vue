@@ -1,17 +1,11 @@
 <template>
     <footer class="footer">
         <div class="content has-text-centered">
-            <p>
-            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-            </p>
+            <img src="https://www.msuiit.edu.ph/assets/img/seal-02.png" class="mb-2" alt="MSU-IIT Logo">
+            <div>
+                <strong class="is-size-4">Mindanao State University - Iligan Institute of Technology</strong>
+                <div class="is-size-5">College of Computer Studies</div>
+            </div>
         </div>
     </footer>
 </template>
-
-<script>
-export default {
-
-}
-</script>

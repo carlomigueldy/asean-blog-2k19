@@ -1,16 +1,16 @@
 <template>
-    <b-navbar fixed-top class="is-primary">
+    <b-navbar fixed-top class="is-light shadow">
         <template slot="brand">
-            <b-navbar-item>
+            <b-navbar-item tag="router-link" to="/">
               {{ title }}
             </b-navbar-item>
         </template>
         <template slot="end">
-            <b-navbar-item href="#">
-                Home
+            <b-navbar-item tag="router-link" to="/">
+              Home
             </b-navbar-item>
-            <b-navbar-item href="#">
-                Documentation
+            <b-navbar-item tag="router-link" to="/about">
+              About
             </b-navbar-item>
         </template>
     </b-navbar>

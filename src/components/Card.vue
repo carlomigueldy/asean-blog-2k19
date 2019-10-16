@@ -1,7 +1,7 @@
 <template>
 <div class="card">
   <div class="card-image">
-    <figure class="image is-4by3">
+    <figure class="image is-2by1">
       <img :src="header" alt="Placeholder image">
     </figure>
   </div>
@@ -28,7 +28,9 @@
     <section class="has-text-centered">
         <b-button
           size="is-medium"
+          type="is-primary"
           @click="goTo(route)" 
+          outlined
           rounded>
           Read More 
             <b-icon 

@@ -1,5 +1,5 @@
 <template>
-    <b-navbar fixed-top class="is-light shadow">
+    <b-navbar fixed-top class="is-primary shadow">
         <template slot="brand">
             <b-navbar-item tag="router-link" to="/">
               {{ title }}

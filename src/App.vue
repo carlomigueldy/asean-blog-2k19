@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar title="ASEAN"/>
+    <Navbar title="ASEAN | Be the change"/>
     <transition name="fade">
       <router-view/>
     </transition>
@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }

@@ -2,7 +2,7 @@
     <section class="hero is-medium is-dark"> 
       <div class="hero-body">
         <div class="container">
-          <h1 class="title has-text-centered has-text-white">
+          <h1 class="title has-text-centered">
             {{ title }}
           </h1>
         </div>

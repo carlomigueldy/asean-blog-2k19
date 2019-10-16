@@ -13,6 +13,16 @@
       </div>
     </section>
 
+    <section class="hero is-medium is-light"> 
+      <div class="hero-body">
+        <div class="container">
+          <blockquote class="title has-text-centered">
+            “We are the first generation to feel the sting of climate change, and we are the last generation that can do something about it.” – Jay Inslee
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
     <section class="section">
       <div class="container">
         <Card 

@@ -20,16 +20,28 @@
           <div class="column">
             <Card 
               header="https://images.pexels.com/photos/2135677/pexels-photo-2135677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              title="Mga hinog na prutas"
+              description="Maka gutom lantawon."
+              :tags="['msuiit', 'dakilang pamantasan']"
+              route="one"
             />
           </div>
           <div class="column">
             <Card 
               header="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              title="Happy langoy langoy"
+              description="Nindot ang pag langoy-langoy sa turtle."
+              :tags="['carlo', 'miguel', 'dy']"
+              route="two"
             />
           </div>
           <div class="column">
             <Card 
               header="https://images.pexels.com/photos/2131899/pexels-photo-2131899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              title="NFA Rice"
+              description="Mag lung-ag nata ug rice."
+              :tags="['banaue', 'rice']"
+              route="three"
             />
           </div>
         </div>
@@ -55,6 +67,6 @@ export default {
   width: 100%;
   background-position: center; 
   background-attachment: fixed; 
-  background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://images.pexels.com/photos/2516406/pexels-photo-2516406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('https://images.pexels.com/photos/2516406/pexels-photo-2516406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 </style>

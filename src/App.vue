@@ -1,7 +1,9 @@
 <template>
   <div>
     <Navbar title="ASEAN"/>
-    <router-view/>
+    <transition name="fade">
+      <router-view/>
+    </transition>
     <Footer />
   </div>
 </template>
@@ -14,33 +16,15 @@ export default {
   components: {
     Navbar,
     Footer,
-  }
+  },
 }
 </script>
 
 <style>
-.mx-0 {
-  margin-left: 0;
-  margin-right: 0;
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
 }
-
-.mb-1 {
-  margin-bottom: 1rem;
-}
-
-.mb-2 {
-  margin-bottom: 2rem;
-}
-
-.mb-3 {
-  margin-bottom: 3rem;
-}
-
-.mb-4 {
-  margin-bottom: 4rem;
-}
-
-.mb-5 {
-  margin-bottom: 5rem;
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

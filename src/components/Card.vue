@@ -8,30 +8,27 @@
   <div class="card-content">
     <div class="media">
       <div class="media-content">
-        <p class="title is-4">This is the Blog post title, on click it opens a page of its content</p>
+        <p class="title is-4">{{ title }}</p>
       </div>
     </div>
 
     <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Phasellus nec iaculis mauris.
-      <b-tag-list>
-        <b-tag 
+      {{ description }}
+      <b-taglist>
+        <b-tag v-for="(tag, index) in tags" 
+          :key="index"
+          type="is-dark"
           rounded>
-          #ASEAN
+          #{{ tag }}
         </b-tag>
-        <b-tag 
-          rounded>
-          #MSUIIT
-        </b-tag>
-      </b-tag-list>
+      </b-taglist>
       <br>
     </div>
 
     <section class="has-text-centered">
         <b-button
           size="is-medium"
-          @click="goTo(post)" 
+          @click="goTo(route)" 
           rounded>
           Read More 
             <b-icon 
@@ -48,6 +45,15 @@
 export default {
     props: {
         header: String,
+        title: String,
+        description: String,
+        tags: Array,
+        route: String,
     },
+    methods: {
+      goTo(routeName) {
+        this.$router.push({ name: routeName })
+      },
+    }
 }
 </script>

@@ -6,9 +6,6 @@
             </b-navbar-item>
         </template>
         <template slot="end">
-            <b-navbar-item tag="router-link" to="/">
-              Home
-            </b-navbar-item>
             <b-navbar-item tag="router-link" to="/about">
               About
             </b-navbar-item>

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="hero is-medium my-parallax"> 
+    <section class="hero is-medium my-parallax" id="top"> 
       <div class="hero-body">
         <div class="container">
-          <h1 class="is-size-1 has-text-centered has-text-white">
+          <h1 class="title is-1 has-text-centered has-text-white">
             BE THE CHANGE.
           </h1>
           <h2 class="subtitle has-text-centered has-text-white">
@@ -23,7 +23,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="article1">
       <div class="container">
         <Card 
           header="https://images.pexels.com/photos/2505705/pexels-photo-2505705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -35,7 +35,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="article2">
       <div class="container">
         <Card 
           header="https://images.pexels.com/photos/159823/kids-girl-pencil-drawing-159823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -47,7 +47,7 @@
       </div>
     </section>
 
-    <section class="hero is-small is-light"> 
+    <section class="hero is-medium is-light" id="form"> 
       <div class="hero-body">
         <div class="container">
           <h1 class="title has-text-centered">
@@ -71,8 +71,29 @@
             </div>
           </div>
           <div class="has-text-right">
-            <a class="button is-primary is-large">Submit your response</a>
+            <b-button
+              size="is-large"
+              type="is-primary"
+              outlined>
+              Submit your response
+                <b-icon 
+                icon="send-outline" 
+                size="is-small">
+                </b-icon>
+            </b-button>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="has-text-centered">
+          <h1 class="title">About</h1>
+          <h2 class="subtitle">This is the about page</h2>
+        </div>
+        <div class="content has-text-centered">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus consectetur eveniet ex molestias quia quibusdam qui et, velit at facilis, tempora, nihil ad natus esse aspernatur perferendis amet aliquid. Ipsa ab optio fuga excepturi, neque reiciendis dignissimos et sed omnis perspiciatis accusamus vel sunt hic asperiores quos! Tenetur ratione itaque veniam corporis, exercitationem praesentium perferendis illo quae soluta nesciunt. Doloremque perspiciatis nam assumenda recusandae soluta earum qui quaerat cumque facere labore, adipisci voluptatum reiciendis est nemo, corporis aspernatur beatae repudiandae laborum nesciunt doloribus fugit. Ea maiores neque dolor, quaerat, iusto cumque excepturi impedit sint quas culpa pariatur vitae exercitationem reprehenderit?
         </div>
       </div>
     </section>
@@ -96,6 +117,6 @@ export default {
   width: 100%;
   background-position: center; 
   background-attachment: fixed; 
-  background-image: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('https://images.pexels.com/photos/1670845/pexels-photo-1670845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://images.pexels.com/photos/1670845/pexels-photo-1670845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 </style>

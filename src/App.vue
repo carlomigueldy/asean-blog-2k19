@@ -25,6 +25,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.mx-5 {
+  margin-left: 15rem; 
+  margin-right: 15rem;
+}
+
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
 }

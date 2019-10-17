@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import index from './views/index.vue'
 import about from './views/about.vue'
-import one from './views/posts/one'
+import sustainable_actions from './views/posts/sustainable_actions'
 import two from './views/posts/two'
 import three from './views/posts/three'
 
@@ -23,9 +23,9 @@ export default new Router({
       component: about,
     },
     {
-      path: '/posts/post-one',
-      name: 'one',
-      component: one,
+      path: '/posts/sustainable-actions',
+      name: 'sustainable_actions',
+      component: sustainable_actions,
     },
     {
       path: '/posts/post-two',

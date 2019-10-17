@@ -27,10 +27,10 @@
       <div class="container">
         <Card 
           header="https://images.pexels.com/photos/2505705/pexels-photo-2505705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          title="Sustainable Actions"
-          description="Maka gutom lantawon."
-          :tags="['msuiit', 'dakilang pamantasan']"
-          route="one"
+          title="6 Sustainable Actions to Fight Climate Change"
+          description="Simple things you can do to fight climate change."
+          :tags="['ClimateChange', 'Prevention']"
+          route="sustainable_actions"
         />
       </div>
     </section>

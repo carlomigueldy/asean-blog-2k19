@@ -3,19 +3,21 @@
     <Hero title="6 Sustainable Actions to Fight Climate Change" class="my-parallax"/>
     <section class="section">
         <div class="container">
-            <b-button 
-            tag="router-link"
-            to="/"
-            class="is-size-6">
-                <b-icon 
-                icon="arrow-left" 
-                size="is-small">
-                </b-icon>
-                Back
-            </b-button>
+            <div class="content">
+                <b-button 
+                tag="router-link"
+                to="/"
+                class="is-size-6">
+                    <b-icon 
+                    icon="arrow-left" 
+                    size="is-small">
+                    </b-icon>
+                    Back
+                </b-button>
+            </div>
             <h1 class="title is-1">6 Sustainable Actions to Fight Climate Change</h1>
             <h2 class="subtitle is-4">Simple things you can do to fight climate change.</h2>
-            <div class="content mx-5">
+            <div class="content">
                 <section class="section">
                     <div class="title">1. Reduce emissions</div>
                     <div class="content">Use your car less, whenever possible, instead use sustainable transportation, such as bicycling, or use public transportation more often. In the case of long-distance travel, trains are more sustainable than airplanes, which cause a great deal of the CO2 emitted into the atmosphere. If you're into cars, remember that every kilometer that you increase your speed will considerably increase CO2 emissions and expenses. According to the CE, each liter of fuel that your car uses, equals 2.5 kilos of CO2 emitted into the atmosphere.</div>

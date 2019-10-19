@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar title="ASEAN | Be the change"/>
+    <Navbar title="Be The Change"/>
     <transition name="fade">
       <router-view/>
     </transition>

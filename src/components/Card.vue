@@ -28,7 +28,6 @@
     <section class="has-text-centered">
         <b-button
           size="is-medium"
-          type="is-primary"
           @click="goTo(route)" 
           outlined
           rounded>

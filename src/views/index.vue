@@ -1,14 +1,11 @@
 <template>
   <div>
-    <section class="hero is-medium my-parallax" id="top"> 
+    <section class="hero is-medium is-black" > 
       <div class="hero-body">
         <div class="container">
-          <h1 class="title is-1 has-text-centered has-text-white">
-            BE THE CHANGE.
+          <h1 class="title">
+            <BeTheChange />
           </h1>
-          <h2 class="subtitle has-text-centered has-text-white">
-            A blog on sustainability. 
-          </h2>
         </div>
       </div>
     </section>
@@ -41,7 +38,7 @@
           header="https://images.pexels.com/photos/159823/kids-girl-pencil-drawing-159823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           title="Teaching Kids About Climate Change"
           description="Nindot ang pag langoy-langoy sa turtle."
-          :tags="['carlo', 'miguel', 'dy']"
+          :tags="['Teach', 'Youth', 'NextGeneration']"
           route="two"
         />
       </div>
@@ -73,7 +70,6 @@
           <div class="has-text-right">
             <b-button
               size="is-large"
-              type="is-primary"
               outlined>
               Submit your response
                 <b-icon 
@@ -86,7 +82,7 @@
       </div>
     </section>
 
-    <section class="section" id="about">
+    <!-- <section class="section" id="about">
       <div class="container">
         <div class="has-text-centered">
           <h1 class="title">About</h1>
@@ -96,17 +92,19 @@
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus consectetur eveniet ex molestias quia quibusdam qui et, velit at facilis, tempora, nihil ad natus esse aspernatur perferendis amet aliquid. Ipsa ab optio fuga excepturi, neque reiciendis dignissimos et sed omnis perspiciatis accusamus vel sunt hic asperiores quos! Tenetur ratione itaque veniam corporis, exercitationem praesentium perferendis illo quae soluta nesciunt. Doloremque perspiciatis nam assumenda recusandae soluta earum qui quaerat cumque facere labore, adipisci voluptatum reiciendis est nemo, corporis aspernatur beatae repudiandae laborum nesciunt doloribus fugit. Ea maiores neque dolor, quaerat, iusto cumque excepturi impedit sint quas culpa pariatur vitae exercitationem reprehenderit?
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script>
 import Card from '../components/Card'
+import BeTheChange from '../components/BeTheChange'
 
 export default {
   name: 'home',
   components: {
     Card,
+    BeTheChange,
   }
 }
 </script>

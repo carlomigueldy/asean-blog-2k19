@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style>
+.is-primary {
+  background-color: #03aa6f;
+}
+
 html {
   scroll-behavior: smooth;
 }

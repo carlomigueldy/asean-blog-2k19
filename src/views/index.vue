@@ -24,8 +24,8 @@
       <div class="container">
         <Card 
           header="https://images.pexels.com/photos/2505705/pexels-photo-2505705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          title="6 Sustainable Actions to Fight Climate Change"
-          description="Simple things you can do to fight climate change."
+          title="Sustainable Actions"
+          description="Here are 6 actions to help fight against climate change."
           :tags="['ClimateChange', 'Prevention']"
           route="one"
         />

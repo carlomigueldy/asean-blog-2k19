@@ -22,7 +22,7 @@ export default new Router({
       component: about,
     },
     {
-      path: '/posts/6-sustainable-actions-to-fight-climate-change',
+      path: '/posts/sustainable-actions',
       name: 'one',
       component: one,
     },

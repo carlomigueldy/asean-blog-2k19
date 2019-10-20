@@ -1,6 +1,6 @@
 <template>
 <div>
-    <Hero title="6 Sustainable Actions to Fight Climate Change" class="my-parallax"/>
+    <Hero title="Sustainable Actions" class="my-parallax"/>
     <section class="section">
         <div class="container">
             <div class="content">
@@ -15,8 +15,21 @@
                     Back
                 </b-button>
             </div>
-            <h1 class="title is-1">6 Sustainable Actions to Fight Climate Change</h1>
-            <h2 class="subtitle is-4">Simple things you can do to fight climate change.</h2>
+            <h1 class="title is-1">Sustainable Actions</h1>
+            <h2 class="subtitle is-4">Here are 6 actions to help fight against climate change.</h2>
+        </div>
+    </section>
+            <section class="hero is-medium is-light"> 
+                <div class="hero-body">
+                    <div class="container">
+                    <blockquote class="title has-text-centered">
+                        “Tiny tweaks can lead to big changes.” – Amy Cuddy
+                    </blockquote>
+                    </div>
+                </div>
+            </section>
+    <section class="section">
+        <div class="container">
             <div class="content">
                 <section class="section">
                     <div class="title">1. Reduce emissions</div>

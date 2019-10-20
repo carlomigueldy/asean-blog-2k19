@@ -27,7 +27,7 @@
           title="6 Sustainable Actions to Fight Climate Change"
           description="Simple things you can do to fight climate change."
           :tags="['ClimateChange', 'Prevention']"
-          route="sustainable_actions"
+          route="one"
         />
       </div>
     </section>
@@ -35,9 +35,9 @@
     <section class="section" id="article2">
       <div class="container">
         <Card 
-          header="https://images.pexels.com/photos/159823/kids-girl-pencil-drawing-159823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          title="Teaching Kids About Climate Change"
-          description="Nindot ang pag langoy-langoy sa turtle."
+          header="https://images.pexels.com/photos/2787469/pexels-photo-2787469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          title="Teaching Youth About Climate Change"
+          description="Encouraging the youth to participate fighting against climate change."
           :tags="['Teach', 'Youth', 'NextGeneration']"
           route="two"
         />
